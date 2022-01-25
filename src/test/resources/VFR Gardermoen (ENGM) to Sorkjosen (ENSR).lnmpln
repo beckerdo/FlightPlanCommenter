@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>4000</CruisingAlt>
+      <CreationDate>2022-01-17T14:43:23-06:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.17</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Bonanza G36 Asobo Modded.lnmperf</FilePath>
+      <Type>BE36</Type>
+      <Name>Bonanza G36 Asobo</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="11.073945" Lat="60.185280" Alt="671.00"/>
+      <Start>01L</Start>
+      <Type>Runway</Type>
+      <Heading>15.9776</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Gardermoen</Name>
+        <Ident>ENGM</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="11.098961" Lat="60.194527" Alt="671.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI1</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.806945" Lat="59.917778" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI2</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.753612" Lat="59.906944" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI3</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.727567" Lat="59.916912" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI4</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.205970" Lat="59.745361" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI5</Ident>
+        <Type>USER</Type>
+        <Pos Lon="9.467006" Lat="59.216015" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI6</Ident>
+        <Type>USER</Type>
+        <Pos Lon="8.790317" Lat="58.951778" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI7</Ident>
+        <Type>USER</Type>
+        <Pos Lon="8.805475" Lat="58.549271" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Gullknapp</Name>
+        <Ident>ENGK</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="8.707830" Lat="58.518448" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI8</Ident>
+        <Type>USER</Type>
+        <Pos Lon="8.028611" Lat="58.153614" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI9</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.958670" Lat="58.134109" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI10</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.451581" Lat="58.027374" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI11</Ident>
+        <Type>USER</Type>
+        <Pos Lon="6.786375" Lat="58.066437" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Lista</Name>
+        <Ident>ENLI</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="6.626011" Lat="58.099720" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI12</Ident>
+        <Type>USER</Type>
+        <Pos Lon="6.319583" Lat="58.654083" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI13</Ident>
+        <Type>USER</Type>
+        <Pos Lon="6.184300" Lat="58.985199" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI14</Ident>
+        <Type>USER</Type>
+        <Pos Lon="5.730442" Lat="58.914612" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Sola</Name>
+        <Ident>ENZV</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="5.631311" Lat="58.880024" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI15</Ident>
+        <Type>USER</Type>
+        <Pos Lon="5.287211" Lat="59.397221" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI16</Ident>
+        <Type>USER</Type>
+        <Pos Lon="5.496639" Lat="59.777657" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI17</Ident>
+        <Type>USER</Type>
+        <Pos Lon="5.684067" Lat="60.132610" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Flesland</Name>
+        <Ident>ENBR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="5.218153" Lat="60.293438" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI18</Ident>
+        <Type>USER</Type>
+        <Pos Lon="5.357472" Lat="60.366917" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI19</Ident>
+        <Type>USER</Type>
+        <Pos Lon="5.323056" Lat="60.397221" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI20</Ident>
+        <Type>USER</Type>
+        <Pos Lon="6.411297" Lat="60.620667" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI21</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.044019" Lat="60.990761" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI22</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.013197" Lat="61.090359" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Haukasen</Name>
+        <Ident>ENSG</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="7.136125" Lat="61.155720" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI23</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.353578" Lat="61.326950" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI24</Ident>
+        <Type>USER</Type>
+        <Pos Lon="6.881166" Lat="61.609005" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI25</Ident>
+        <Type>USER</Type>
+        <Pos Lon="6.712231" Lat="61.875572" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI26</Ident>
+        <Type>USER</Type>
+        <Pos Lon="6.987916" Lat="62.100349" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI27</Ident>
+        <Type>USER</Type>
+        <Pos Lon="6.330597" Lat="62.457775" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Vigra</Name>
+        <Ident>ENAL</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="6.110022" Lat="62.560394" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI28</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.187366" Lat="62.646187" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI29</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.205586" Lat="62.808743" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI30</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.459303" Lat="62.909607" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Kvernberget</Name>
+        <Ident>ENKB</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="7.829186" Lat="63.112556" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI31</Ident>
+        <Type>USER</Type>
+        <Pos Lon="7.957789" Lat="63.213211" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI32</Ident>
+        <Type>USER</Type>
+        <Pos Lon="8.233819" Lat="63.430859" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI33</Ident>
+        <Type>USER</Type>
+        <Pos Lon="8.568903" Lat="63.638943" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Flatval</Name>
+        <Ident>ENFA</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="8.759025" Lat="63.700420" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI34</Ident>
+        <Type>USER</Type>
+        <Pos Lon="8.894042" Lat="63.729729" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI35</Ident>
+        <Type>USER</Type>
+        <Pos Lon="9.465661" Lat="63.770351" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI36</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.397966" Lat="64.268898" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI37</Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.186922" Lat="64.564072" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Ryum</Name>
+        <Ident>ENRM</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="11.143005" Lat="64.837051" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI38</Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.230525" Lat="64.862648" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>LEKA </Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.647147" Lat="65.086021" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI39</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.208308" Lat="65.471237" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI40</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.423314" Lat="65.821838" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Stokka</Name>
+        <Ident>ENST</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="12.468863" Lat="65.956841" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI41</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.796847" Lat="66.250549" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI42</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.106600" Lat="66.558098" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI43</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.319461" Lat="66.742607" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI44</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.460908" Lat="66.807068" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI45</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.909975" Lat="67.056198" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Bodo</Name>
+        <Ident>ENBO</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="14.358803" Lat="67.268677" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>BODØ</Ident>
+        <Type>USER</Type>
+        <Pos Lon="14.440066" Lat="67.288483" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI46</Ident>
+        <Type>USER</Type>
+        <Pos Lon="14.476800" Lat="67.389282" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI47</Ident>
+        <Type>USER</Type>
+        <Pos Lon="14.744592" Lat="67.546890" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI48</Ident>
+        <Type>USER</Type>
+        <Pos Lon="14.660600" Lat="68.167297" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Helle</Name>
+        <Ident>ENSH</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="14.668591" Lat="68.242607" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI49</Ident>
+        <Type>USER</Type>
+        <Pos Lon="14.806172" Lat="68.276512" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI50</Ident>
+        <Type>USER</Type>
+        <Pos Lon="15.218269" Lat="68.473625" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI51</Ident>
+        <Type>USER</Type>
+        <Pos Lon="15.481941" Lat="68.637054" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI52</Ident>
+        <Type>USER</Type>
+        <Pos Lon="15.694800" Lat="68.700745" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI53</Ident>
+        <Type>USER</Type>
+        <Pos Lon="15.796425" Lat="68.740364" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI54</Ident>
+        <Type>USER</Type>
+        <Pos Lon="16.507275" Lat="68.796066" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI55</Ident>
+        <Type>USER</Type>
+        <Pos Lon="17.438366" Lat="69.045738" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI56</Ident>
+        <Type>USER</Type>
+        <Pos Lon="18.446878" Lat="69.429100" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI57</Ident>
+        <Type>USER</Type>
+        <Pos Lon="18.905556" Lat="69.529251" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Tromso</Name>
+        <Ident>ENTC</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="18.917772" Lat="69.681633" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI58</Ident>
+        <Type>USER</Type>
+        <Pos Lon="19.749786" Lat="69.667587" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI59</Ident>
+        <Type>USER</Type>
+        <Pos Lon="20.299103" Lat="69.556595" Alt="4000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI60</Ident>
+        <Type>USER</Type>
+        <Pos Lon="20.655128" Lat="69.960205" Alt="2374.01"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Sorkjosen</Name>
+        <Ident>ENSR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="20.958969" Lat="69.787247" Alt="14.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

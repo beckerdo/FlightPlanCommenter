@@ -1,0 +1,18 @@
+{
+  "LocalisationPackage": {
+    "Language": "en-US",
+    "Strings": {
+      "asobo-bushtrip-texas.Mission.1": "Austin Texas Downtown",
+      "asobo-bushtrip-texas.Mission.2": "Texas",
+      "asobo-bushtrip-texas.Mission.3": "Austin to Austin",
+      "asobo-bushtrip-texas.Mission.4": "This flight starts at Austin Executive Airport (formerly known as Bird's Nest), travels downtown to the state Capitol, and returns to the starting airport.",
+      "asobo-bushtrip-texas.Mission.5": "Austin",
+      "asobo-bushtrip-texas.Mission.6": "Texas Capitol",
+      "asobo-bushtrip-texas.Mission.7": "Austin",
+      "asobo-bushtrip-texas.Mission.8": "Austin to Austin",
+      "asobo-bushtrip-texas.Mission.9": "After taking off from Austin Executive Airport, head to the south west toward the tall buildings of the city center",
+      "asobo-bushtrip-texas.Mission.10": "Make a circle around the Texas State Capitol. Note the Colorado River which forms Lady Bird Lake. Also note the large footbal stadium, home to the University of Texas Longhorns.",
+      "asobo-bushtrip-texas.Mission.11": "Austin Texas Downtown- Created by Dan Becker.",
+    }
+  }
+}
