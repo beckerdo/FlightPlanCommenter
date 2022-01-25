@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>2000</CruisingAlt>
+      <CreationDate>2022-01-17T06:36:23-06:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.17</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Bonanza G36 Asobo Modded.lnmperf</FilePath>
+      <Type>BE36</Type>
+      <Name>Bonanza G36 Asobo</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-97.571793" Lat="30.402327" Alt="608.00"/>
+      <Start>13</Start>
+      <Type>Runway</Type>
+      <Heading>131.573</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Bird's Nest</Name>
+        <Ident>KEDC</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-97.566391" Lat="30.397495" Alt="608.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Texas Capitol</Name>
+        <Ident>TXC</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-97.740349" Lat="30.274189" Alt="2000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Bird's Nest</Name>
+        <Ident>KEDC</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-97.566391" Lat="30.397495" Alt="608.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

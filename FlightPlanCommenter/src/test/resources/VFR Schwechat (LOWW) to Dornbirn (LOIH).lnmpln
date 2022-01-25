@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>1000</CruisingAlt>
+      <CreationDate>2022-01-17T06:37:58-06:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.17</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Bonanza G36 Asobo Modded.lnmperf</FilePath>
+      <Type>BE36</Type>
+      <Name>Bonanza G36 Asobo</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="16.578272" Lat="48.119522" Alt="589.00"/>
+      <Start>16</Start>
+      <Type>Runway</Type>
+      <Heading>164.219</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Schwechat</Name>
+        <Ident>LOWW</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="16.569723" Lat="48.110279" Alt="589.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI1</Ident>
+        <Type>USER</Type>
+        <Pos Lon="16.372192" Lat="48.205227" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TULLN</Ident>
+        <Type>USER</Type>
+        <Pos Lon="16.057022" Lat="48.326694" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI2</Ident>
+        <Type>USER</Type>
+        <Pos Lon="15.600575" Lat="48.409039" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>MELK</Ident>
+        <Type>USER</Type>
+        <Pos Lon="15.333469" Lat="48.226730" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI3</Ident>
+        <Type>USER</Type>
+        <Pos Lon="15.075119" Lat="48.226273" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>PERG</Ident>
+        <Type>USER</Type>
+        <Pos Lon="14.633092" Lat="48.238625" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI4</Ident>
+        <Type>USER</Type>
+        <Pos Lon="14.358775" Lat="48.254513" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Linz</Name>
+        <Ident>LOWL</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="14.188056" Lat="48.235279" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WELS</Ident>
+        <Type>USER</Type>
+        <Pos Lon="14.023864" Lat="48.159103" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI5</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.939783" Lat="48.096439" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI6</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.789911" Lat="47.867077" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI7</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.548214" Lat="47.862011" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI8</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.375523" Lat="47.822838" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI9</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.302050" Lat="47.794937" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI10</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.139380" Lat="47.901386" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Salzburg</Name>
+        <Ident>LOWS</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="13.003333" Lat="47.794445" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI11</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.095978" Lat="47.683014" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI12</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.188511" Lat="47.482918" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI13</Ident>
+        <Type>USER</Type>
+        <Pos Lon="13.063056" Lat="47.420834" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI14</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.849889" Lat="47.423561" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Zell Am See</Name>
+        <Ident>LOWZ</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="12.791111" Lat="47.291668" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI15</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.693850" Lat="47.074528" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI16</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.625527" Lat="47.170345" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI17</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.622500" Lat="47.469444" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>St Johann</Name>
+        <Ident>LOIJ</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="12.449445" Lat="47.520557" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI18</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.301945" Lat="47.561668" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI19</Ident>
+        <Type>USER</Type>
+        <Pos Lon="12.166667" Lat="47.583332" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Langkampfen Airport</Name>
+        <Ident>LOIK</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="12.127500" Lat="47.564167" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI20</Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.895866" Lat="47.490440" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI21</Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.710731" Lat="47.465004" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI22</Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.772872" Lat="47.392540" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI23</Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.383542" Lat="47.271893" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Innsbruck</Name>
+        <Ident>LOWI</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="11.343984" Lat="47.260208" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ZIRL</Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.239281" Lat="47.270611" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TELFS</Ident>
+        <Type>USER</Type>
+        <Pos Lon="11.071911" Lat="47.306705" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI24</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.983334" Lat="47.416668" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI25</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.777750" Lat="47.455372" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Hoefen</Name>
+        <Ident>LOIR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="10.691389" Lat="47.470833" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI26</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.500861" Lat="47.461987" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI27</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.286283" Lat="47.407417" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI28</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.155286" Lat="47.324528" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI29</Ident>
+        <Type>USER</Type>
+        <Pos Lon="10.031403" Lat="47.375446" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>POI30</Ident>
+        <Type>USER</Type>
+        <Pos Lon="9.730692" Lat="47.411831" Alt="1000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Dornbirn</Name>
+        <Ident>LOIH</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="9.699722" Lat="47.384445" Alt="1352.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
