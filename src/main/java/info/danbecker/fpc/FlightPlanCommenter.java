@@ -1,7 +1,10 @@
 package info.danbecker.fpc;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import org.apache.commons.cli.CommandLine;
@@ -133,7 +136,11 @@ public class FlightPlanCommenter {
 		// So to convert a URL to File, you would say Paths.get(url.toURI()).toFile()
         // Note that URI strings have leading slash, and file strings are normalized to local file system (/ versus \)
         System.out.println( format( "inp option given=%s", inputPlanFile ));
-		inputPlanFile = Paths.get( ClassLoader.getSystemClassLoader().getResource(inputPlanFile).toURI() ).toFile().toString();
+        if ( Files.exists( Path.of( inputPlanFile ) )) {
+        	inputPlanFile = Path.of( inputPlanFile ).normalize().toString();
+        } else	{
+        	inputPlanFile = Paths.get( ClassLoader.getSystemClassLoader().getResource(inputPlanFile).toURI() ).toFile().toString();
+        }
         System.out.println( format( "inp option normalized=%s", inputPlanFile ));
 
         if (line.hasOption("op")) {
@@ -148,11 +155,21 @@ public class FlightPlanCommenter {
         if (line.hasOption("ic")) {
             String option = line.getOptionValue("ic");
             inputCommentFile = option;
-        }
-        System.out.println( "ic option given=" + inputCommentFile );
-        if ( null != inputCommentFile ) {
-        	inputCommentFile = Paths.get( ClassLoader.getSystemClassLoader().getResource(inputCommentFile).toURI() ).toFile().toString();
-        	System.out.println( format( "ic option normalized %s", inputCommentFile ));
+            System.out.println( "ic option given=" + inputCommentFile );
+            if ( null != inputCommentFile ) {
+            	// Try as given, try with same path as inputPlan, try as resources
+                if ( Files.exists( Path.of( inputCommentFile ) )) {
+                	inputCommentFile = Path.of( inputCommentFile ).normalize().toString();
+                } else if ( inputPlanFile.contains(File.separator )){
+                	String testLocation = inputPlanFile.substring( 0, inputPlanFile.lastIndexOf( File.separator ) + 1);
+                    if ( Files.exists( Path.of( testLocation + inputCommentFile ) )) {
+                    	inputCommentFile = Path.of( testLocation + inputCommentFile ).normalize().toString();                    	
+                    }
+                } else {
+                	inputCommentFile = Paths.get( ClassLoader.getSystemClassLoader().getResource(inputCommentFile).toURI() ).toFile().toString();               	
+                }
+            	System.out.println( format( "ic option normalized %s", inputCommentFile ));
+            }
         }
         
         // Gather command line arguments for execution

@@ -1,4 +1,4 @@
-package info.danbecker.fpc;
+package info.danbecker.fpc.util;
 
 import java.io.File;
 import java.io.FileOutputStream;

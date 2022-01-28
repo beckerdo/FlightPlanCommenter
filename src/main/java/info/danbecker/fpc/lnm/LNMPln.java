@@ -21,8 +21,8 @@ import org.w3c.dom.NodeList;
 
 import org.xml.sax.SAXException;
 
-import info.danbecker.fpc.DocUtils;
 import info.danbecker.fpc.msfs.L10n;
+import info.danbecker.fpc.util.DocUtils;
 
 /**
  * Little Navmap Plan (LNMPPLN) Reader

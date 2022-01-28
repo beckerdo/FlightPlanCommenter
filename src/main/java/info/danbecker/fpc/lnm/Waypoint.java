@@ -13,7 +13,7 @@ import org.w3c.dom.NodeList;
 
 import org.xml.sax.SAXException;
 
-import info.danbecker.fpc.DocUtils;
+import info.danbecker.fpc.util.DocUtils;
 
 
 /**

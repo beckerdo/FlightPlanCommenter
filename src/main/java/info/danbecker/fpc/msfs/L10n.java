@@ -12,6 +12,8 @@ import java.util.List;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
+import info.danbecker.fpc.util.Unescape;
+
 /**
  * MSFS specific language strings for bush trips, missions, commenting
  * 
@@ -173,7 +175,7 @@ public class L10n {
 		planEnd = beginEnd[1];
 		// Some files have two legs
 		planComment = jsonStrings.getString(keyPrefix + keyPosition++);
-		if (null != planEnd && planComment.contains( planEnd )) {
+		if (null != planComment && planComment.contains( LEGDELIM )) {
 			System.out.println( "planComment=\"" + planComment + "\". Appears to be leg. Will discard and read next key for comment");			
 			planComment = jsonStrings.getString(keyPrefix + keyPosition++);		
 		}
@@ -212,7 +214,7 @@ public class L10n {
 			legString = null;
 
 			// Comment might be null (end of file), next leg, or author string.
-			String comment = jsonStrings.optString(keyPrefix + keyPosition++);
+			String comment = Unescape.unescapeHtml3( jsonStrings.optString(keyPrefix + keyPosition++) );
 			while (null != comment && comment.length() > 0 ) {
 				if ( comment.contains(leg.end + LEGDELIM )) {
 					legString = comment;
@@ -222,7 +224,7 @@ public class L10n {
 				} else {
 					// System.out.println( "comment=" + comment );
 					leg.comments.add(comment);
-					comment = jsonStrings.optString(keyPrefix + keyPosition++);
+					comment = Unescape.unescapeHtml3( jsonStrings.optString(keyPrefix + keyPosition++));
 				}
 			}			
 			// System.out.println("Leg " + legs.size() + "=" + leg);
