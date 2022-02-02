@@ -145,6 +145,7 @@ public final class DocUtils {
     	
     /**
      * Update text content of this node child element with given name
+     * If there is no child element with the given name, one is added.
      */
     public static String updateChildNodeText( Node node, String elementName, String textContent ) {
     	if ( null == node || null == elementName) return null;
@@ -156,6 +157,10 @@ public final class DocUtils {
     			return textContent;
     		}
     	}
+    	// Child node with element name does not exist. Add one.
+        Node newChild = node.getOwnerDocument().createElement(elementName);
+		newChild.setTextContent( textContent );
+        node.appendChild(newChild);
         return null;
     }
 

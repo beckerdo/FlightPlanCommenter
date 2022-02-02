@@ -194,7 +194,7 @@ public class LNMPln {
 					legDistance = 0.0f;
 				} else {
 					// Current leg ends
-					// System.out.println( "Leg " + legCount++ + ", start=" + beginAirport.toShortString() + ", end=" + waypoint.toShortString() );
+					// System.out.println( "Leg " + legi + ", start=" + beginAirport.toShortString() + ", end=" + waypoint.toShortString() );
 					beginAirport = waypoint;
 					// End airport should have no comment for this leg;
 					// Calculate distance of this leg, use that as a comment.
