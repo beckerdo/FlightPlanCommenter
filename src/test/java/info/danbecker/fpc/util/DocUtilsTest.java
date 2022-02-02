@@ -1,4 +1,4 @@
-package info.danbecker.fpc;
+package info.danbecker.fpc.util;
 
 import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;

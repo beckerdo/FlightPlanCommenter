@@ -12,6 +12,7 @@ import java.util.List;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
+import info.danbecker.fpc.util.UnMarkup;
 import info.danbecker.fpc.util.Unescape;
 
 /**
@@ -34,7 +35,7 @@ public class L10n {
 	String keyPrefix; // common String key prefix, e.g. "asobo-bushtrip-germany.Mission."
 	
 	String title; // title e.g. "Germany Journey"
-	String location; // country or territory e.g. "Germany"
+	String overallComment; // country or territory or overall, e.g. "Germany", "Gardermoen to Sorkjosen"
 	String planBegin; // overall beginning "Helgoland"
 	String planEnd; // overall plan ending "Jolling"
 	String planComment; // overall plan comment "This flight begins in the far north of Germany, ..."
@@ -158,27 +159,19 @@ public class L10n {
 	}
 
 	// Read header fields from Strings map
-	// Has the side effect of setting title, location planBeing, planEnd, planComment
+	// Has the side effect of setting title, location, planBeing, planEnd, planComment
 	// Returns the next unread key position in the Strings map
 	public int readHeader(JSONObject jsonStrings, String keyprefix, int keyPosition) {
 		title = jsonStrings.getString(keyPrefix + keyPosition++);
+		overallComment = jsonStrings.getString(keyPrefix + keyPosition++);
+		// Some "overallComment" strings are overall begin and and, which can be
+		//    different than the waypoint 0 and N names.
+		//    ex. 1 Sweden, 2 Arlanda to Sturup, 3 Stockholm to Malmo
 		String legString = jsonStrings.getString(keyPrefix + keyPosition++);
-		// Some files have no location. Skip over if this looks like legs
-		if (legString.contains(LEGDELIM)) {
-			location = "";
-		} else {
-			location = legString;
-			legString = jsonStrings.getString(keyPrefix + keyPosition++);
-		}
 		String[] beginEnd = getBeginEnd(legString);
 		planBegin = beginEnd[0];
 		planEnd = beginEnd[1];
-		// Some files have two legs
 		planComment = jsonStrings.getString(keyPrefix + keyPosition++);
-		if (null != planComment && planComment.contains( LEGDELIM )) {
-			System.out.println( "planComment=\"" + planComment + "\". Appears to be leg. Will discard and read next key for comment");			
-			planComment = jsonStrings.getString(keyPrefix + keyPosition++);		
-		}
 		return keyPosition;
 	}
 
@@ -215,6 +208,7 @@ public class L10n {
 
 			// Comment might be null (end of file), next leg, or author string.
 			String comment = Unescape.unescapeHtml3( jsonStrings.optString(keyPrefix + keyPosition++) );
+			comment = UnMarkup.unMarkup(comment);
 			while (null != comment && comment.length() > 0 ) {
 				if ( comment.contains(leg.end + LEGDELIM )) {
 					legString = comment;
@@ -251,7 +245,7 @@ public class L10n {
 	}
 	
 	public String getTitle() { return title; }
-	public String getLocation() { return location; }
+	public String getLocation() { return overallComment; }
 	public String getPlanBegin() { return planBegin; }
 	public String getPlanEnd() { return planEnd; }
 	public String getPlanComment() { return planComment; }

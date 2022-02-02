@@ -172,8 +172,16 @@ public class LNMPln {
         Waypoint beginAirport = null;
 		Document updatedDoc = null;
 		Element updatedWaypoints = null;
+		int legi = 0;
 		float legDistance = 0.0f;
 		Waypoint previousWaypoint = null; // for distance calcs.
+
+		// Airport and legs count
+		xPath = "//Flightplan/Waypoints/Waypoint[Type='AIRPORT']";
+        expr = xp.compile( xPath );
+        NodeList airports = (NodeList) expr.evaluate(lnmPlnDoc, XPathConstants.NODESET);
+		int legCount = airports.getLength() - 1;
+		
         for (Node waypointNode : DocUtils.NodeIterable.iterable(waypoints)) {        	
 			Waypoint waypoint = Waypoint.fromNode( waypointNode );
 			String commentText = DocUtils.getChildNodeText( waypointNode, "Comment" );
@@ -182,6 +190,7 @@ public class LNMPln {
 				if ( null == beginAirport ) {
 					// First leg starts
 					beginAirport = waypoint;
+					legi = 0;
 					legDistance = 0.0f;
 				} else {
 					// Current leg ends
@@ -190,7 +199,7 @@ public class LNMPln {
 					// End airport should have no comment for this leg;
 					// Calculate distance of this leg, use that as a comment.
 					legDistance += waypoint.distanceFrom(previousWaypoint);
-					String distanceComment = String.format( "Distance this leg=%.1fnm", legDistance );
+					String distanceComment = legComment( legi++, legCount, legDistance );
 					DocUtils.cloneAppendNode( updatedDoc, updatedWaypoints, waypointNode, distanceComment  );
 
 					// Write leg to file	         
@@ -222,5 +231,9 @@ public class LNMPln {
 			previousWaypoint = waypoint; // For distance calcs.
         } 
         return fileCount;
+	}
+	
+	public String legComment( int thisLeg, int numLegs, float distance ) {
+		return String.format( "Completed leg %02d/%02d, distance=%.1fnm", thisLeg, numLegs, distance );	
 	}
 }

@@ -9,6 +9,7 @@ import java.util.HashMap;
  *
  */
 public class Unescape {
+
 	public static final String unescapeHtml3(final String input) {
 		if ( null == input) return null;
         StringWriter writer = null;
@@ -90,7 +91,7 @@ public class Unescape {
         return input;
     }
 
-    private static final String[][] ESCAPES = {
+    private static final String[][] HTML_ESCAPES = {
         {"\"",     "quot"}, // " - double-quote
         {"&",      "amp"}, // & - ampersand
         {"<",      "lt"}, // < - less-than
@@ -202,7 +203,7 @@ public class Unescape {
     private static final HashMap<String, CharSequence> lookupMap;
     static {
         lookupMap = new HashMap<String, CharSequence>();
-        for (final CharSequence[] seq : ESCAPES) 
+        for (final CharSequence[] seq : HTML_ESCAPES) 
             lookupMap.put(seq[1].toString(), seq[0]);
     }
 }
